@@ -1,0 +1,37 @@
+# Core
+fastapi==0.115.12
+uvicorn==0.34.2
+pydantic==2.11.1
+
+# Agent Framework
+langgraph==0.3.34
+langchain==0.3.25
+langchain-openai==0.3.14
+
+# Event Bus
+confluent-kafka==2.8.0
+
+# Knowledge Graph
+neo4j==5.28.1
+
+# Time Series Analysis
+prophet==1.1.6
+scikit-learn==1.6.1
+numpy==2.2.4
+pandas==2.2.3
+
+# Vector Database (RAG)
+chromadb==0.6.3
+
+# Observability
+prometheus-client==0.22.0
+
+# Utilities
+python-dotenv==1.1.0
+httpx==0.28.1
+structlog==25.1.0
+tenacity==9.1.2
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.25.3
